@@ -1,0 +1,7 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+choices_list:
+  path: /choices
+  controller: App\Controller\ChoiceController::getChoices
